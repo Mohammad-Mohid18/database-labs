@@ -110,6 +110,7 @@ ORDER BY discounted_price DESC;
 -- orders from 2025. Add a column called priority that shows
 -- 'URGENT' for orders above 10,000 and 'NORMAL' for the rest.
 -- ===========================
+/*
 SELECT order_id,
 customer_id,
 total_amount,
@@ -124,3 +125,6 @@ WHERE shipped_date IS NULL
 AND order_date >= '2025-01-01'
 ORDER BY total_amount DESC
 LIMIT 5;
+*/
+
+/*
